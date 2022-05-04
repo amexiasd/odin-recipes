@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    font-family: "Brush Script MT" ,Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.title{
+   font-weight: bolder; 
+}
+
+.image{
+   height: auto;
+   width: 500px; 
+}
+
+.list{
+   text-align: left;
+ 
+}
+.home{
+    font-size: 20px;
+    color: fuchsia;
+}
+a{
+    text-decoration: none;
+    
+}
