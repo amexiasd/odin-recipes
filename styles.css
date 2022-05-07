@@ -3,6 +3,7 @@
     padding: 0;
     background-color: cornsilk;
     font-family: "Brush Script MT" ,Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
 }
 
 .title{
@@ -25,4 +26,26 @@
 a{
     text-decoration: none;
     
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.card{
+    max-width: 195%;
+    height: 400px;
+    border: 1px blue solid;
+    margin: 0px 3px;
+   
+    display: inline-block;
+    text-align: center;
+    font-size: larger;
+}
+
+img{
+    height: 95%;
+    width: 95%;
+    object-fit: contain;
 }
